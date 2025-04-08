@@ -33,6 +33,7 @@ CUSTOM_APP = [
     "users.apps.UsersConfig",
     "recipes.apps.RecipesConfig",
     "common.apps.CommonConfig",
+    "comments.apps.CommentsConfig",
 ]
 
 SYSTEM_APPS = [
