@@ -2,18 +2,18 @@
 
 ### User model
 
-- [] username
-- [] name
-- [] email
-- [] avatar
+- [x] username
+- [x] name
+- [x] email
+- [x] avatar
 
 ### Recipe model
 
-- [] user
-- [] title
-- [] description
-- [] imgs
-- [] video link
+- [x] user
+- [x] title
+- [x] description
+- [x] imgs
+- [x] video link
 - [] like
 - [] isLiked
 

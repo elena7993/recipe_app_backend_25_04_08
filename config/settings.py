@@ -31,6 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 CUSTOM_APP = [
     "users.apps.UsersConfig",
+    "recipes.apps.RecipesConfig",
+    "common.apps.CommonConfig",
 ]
 
 SYSTEM_APPS = [
