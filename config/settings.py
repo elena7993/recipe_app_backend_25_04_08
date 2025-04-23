@@ -29,11 +29,17 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+
+THIRD_PARTY_APP = [
+    "rest_framework",
+]
+
 CUSTOM_APP = [
     "users.apps.UsersConfig",
     "recipes.apps.RecipesConfig",
     "common.apps.CommonConfig",
     "comments.apps.CommentsConfig",
+    "likes.apps.LikesConfig",
 ]
 
 SYSTEM_APPS = [
@@ -45,7 +51,7 @@ SYSTEM_APPS = [
     "django.contrib.staticfiles",
 ]
 
-INSTALLED_APPS = SYSTEM_APPS + CUSTOM_APP
+INSTALLED_APPS = SYSTEM_APPS + THIRD_PARTY_APP + CUSTOM_APP
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
