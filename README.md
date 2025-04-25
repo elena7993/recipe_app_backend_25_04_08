@@ -31,14 +31,15 @@
 
 
 ### API
-- [] GET - seeUser
-- [] GET - me
-- [] POST - signup
-- [] POST - editprofile
-- [] POST - login
-- [] POST - logout
-- [] PUT - change pw
-- [] POST - delete user
+<!-- - [] GET - seeUser -->
+- [x] GET - me
+- [x] POST - signup
+- [x] POST - login
+- [x] POST - logout
+- [x] PUT - change pw
+- [x] POST - editprofile
+- [x] POST - delete user
+- [x] POST - see user
 - [] POST - github login
 - [] POST - kakao login
 
@@ -63,4 +64,9 @@
 "username": "test002",
 "password": "test654321",
 "name": "test"
+} -->
+
+<!-- {
+"old_password": "test987654",
+"new_password": "test654321"
 } -->
