@@ -8,4 +8,17 @@ class SeeRecipeSerializer(ModelSerializer):
 
     class Meta:
         model = Recipe
-        fields = "__all__"
+        exclude = (
+            "video_link",
+            "description",
+        )
+
+
+class DetailDetailRecipeSerializer(ModelSerializer):
+    user = PublicUserSerializer(read_only=True)
+
+
+class DetailRecipeSerializer(ModelSerializer):
+    class Meta:
+        model = Recipe
+        field = "__all__"

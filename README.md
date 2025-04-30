@@ -44,9 +44,9 @@
 - [] POST - kakao login
 
 ### Recipe
-- [] GET - seeRecipe
-- [] GET - detailRecipe
-- [] POST - createRecipe
+- [x] GET - seeRecipe
+- [x] GET - detailRecipe
+- [x] POST - createRecipe
 - [] PUT - editRecipe
 - [] POST - deleteRecipe
 - [] GET - isMine
