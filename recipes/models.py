@@ -25,6 +25,12 @@ class Recipe(CommonModel):
         blank=True,
     )
 
+    like = models.ManyToManyField(
+        "users.User",
+        blank=True,
+        related_name="recipes",
+    )
+
     def __str__(self):
         return self.title
 

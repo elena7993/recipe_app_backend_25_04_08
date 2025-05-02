@@ -11,6 +11,7 @@ class Comments(CommonModel):
     recipe = models.ForeignKey(
         "recipes.Recipe",
         on_delete=models.CASCADE,
+        related_name="comments",
     )
 
     payload = models.TextField()

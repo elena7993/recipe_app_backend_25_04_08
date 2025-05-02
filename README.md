@@ -14,8 +14,8 @@
 - [x] description
 - [x] imgs
 - [x] video link
-- [] like
-- [] isLiked
+- [x] like
+- [x] isLiked
 
 ### comment model
 
@@ -47,14 +47,17 @@
 - [x] GET - seeRecipe
 - [x] GET - detailRecipe
 - [x] POST - createRecipe
-- [] PUT - editRecipe
-- [] POST - deleteRecipe
-- [] GET - isMine
-- [] GET - isLiked
+- [x] PUT - editRecipe
+- [x] POST - deleteRecipe
+- [x] GET - isMine
+- [x] GET - isLiked
+- [x] PUT - like
+- [x] GET - is count
 
 ### Comment
 - [] GET - seeComment
 - [] POST - createComment
+- [] GET - detailComment
 - [] PUT - editComment
 - [] POST - deleteComment
 - [] POST - isMine
